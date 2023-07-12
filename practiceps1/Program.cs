@@ -49,29 +49,7 @@ namespace practiceps1
             catch (OverflowException)
             {
                 Console.WriteLine("Value is too large or too small. Failed to convert to decimal.");
-            }*/
-            string strNumber = "123";
-            int newstring;
-            int result;
-
-            if (int.TryParse(strNumber, out result))
-            {
-                newstring = result*3;
-                Console.WriteLine("Successfully converted to integer: " + result);
-
-            }
-            else
-            {
-                if(strNumber== "123")
-                {
-                    newstring = strNumber * 3;
-                }
-            }
-            else
-            {
-                Console.WriteLine("Failed to convert to integer.");
-            }
-            Console.ReadKey();
+                }*/
 
         }
     }
